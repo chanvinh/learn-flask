@@ -1,1 +1,12 @@
+<<<<<<< HEAD
+from flask import Flask
+
+app = Flask(__name__)
+
+
+@app.route('/')
+def hello():
+    return 'Hello, World!'
+=======
 hello
+>>>>>>> 030dd3515a96ff1f8ce2bcc0275f55d00a274c33
